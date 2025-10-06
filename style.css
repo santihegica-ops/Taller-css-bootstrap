@@ -2,17 +2,64 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+.background-page{
+  background-color: white;
+}
+
 body{
   background-image: url(img/backg.jpg);
 
 }
 
+.footer{
+  border: 10px;
+  border-image: url(img/h1bg.png) 30% round;
+  border-bottom-style: solid;
+} 
+
 .header{
-  background-color: white;
   border: 10px solid transparent;
   border-image: url(img/h1bg.png) 40% round;
 }
 
 .slogan-header {
  color:gray;
+}
+
+.img-header{
+  width: auto;
+  height: auto;
+}
+
+.anchor-style a{
+  text-decoration: none;
+  color: gray;
+}
+
+.contenido{
+  h3{
+    margin-right: 50%;
+    border: 10px;
+    border-image: url(img/h1bg.png) 30% round;
+    border-bottom-style: solid;
+  }
+
+  a{
+  text-decoration: none;
+  color: limegreen;
+  }
+}
+
+#welcome{
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rayita{
+  border-right: dashed;
+  border-color: lightgray;
+}
+
+.img-chimba{
+  width: 100%;
 }
