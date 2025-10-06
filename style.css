@@ -1,0 +1,18 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-image: url(img/backg.jpg);
+
+}
+
+.header{
+  background-color: white;
+  border: 10px solid transparent;
+  border-image: url(img/h1bg.png) 40% round;
+}
+
+.slogan-header {
+ color:gray;
+}
