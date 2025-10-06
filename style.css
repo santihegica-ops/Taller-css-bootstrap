@@ -18,6 +18,11 @@ body{
   border-bottom-style: solid;
 } 
 
+.nav-link1:hover{
+  color: blue; 
+}
+
+
 .header{
   border: 10px solid transparent;
   border-image: url(img/h1bg.png) 40% round;
